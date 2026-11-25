@@ -4,7 +4,6 @@ import {
   AudioLines,
   Check,
   ChevronDown,
-  CircleHelp,
   Copy,
   Mic,
   Pause,

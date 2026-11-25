@@ -1,4 +1,4 @@
-import { AudioLines, Clock3, Mic2, Settings2 } from "lucide-react";
+import { AudioLines, Clock3, Mic2 } from "lucide-react";
 import { NavLink, useNavigate } from "react-router-dom";
 
 export function AppSidebar() {
