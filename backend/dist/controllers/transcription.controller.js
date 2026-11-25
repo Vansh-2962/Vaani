@@ -1,6 +1,7 @@
 import { eq, desc } from "drizzle-orm";
 import { db } from "../config/db.js";
 import { transcriptions } from "../db/schema.js";
+import { createGeminiToken } from "../services/gemini.service.js";
 export const createTranscription = async (req, res) => {
     try {
         const { title, content, language, duration } = req.body;
